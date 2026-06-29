@@ -22,7 +22,7 @@ const observer = new IntersectionObserver(entries => {
 
 document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
-const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzQrC8cVRd1xwtJSuI7BHteqqVFXztsl69jk6-j1nf2954v3w90-O2r-weyBihYaxXnzA/exec";
+const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbymNleO2sjH6v6C30-qhH0PPNigAcdE7Hq2tFx0zaPKsMMUvgwwN5uC67l_2eIwZyAj/exec";
 
 const openRsvp = document.getElementById('openRsvp');
 const closeRsvp = document.getElementById('closeRsvp');
